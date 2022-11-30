@@ -10,17 +10,19 @@
   height: 30%;
   display: block;
   margin: 0 auto;
+  border-radius: 5%;
 }
  h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   font-weight: bold;
-  color:rgb(43, 224, 140);
+  color:rgb(133, 45, 45);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  h2 {
   text-align: center;
-  color: rgb(127, 136, 9);
+  color: rgb(133, 45, 45);
  }
  td, th {
   padding: 0.93em;
@@ -30,12 +32,11 @@
   font-family: 'Work Sans', sans-serif;
   font-size: large;
   padding: 1em ;
-  color: pink;
-  background: rgb(61,255,0);
-  background: linear-gradient(331deg, rgba(61,255,0,0.7290266448376226) 5%, rgba(127,167,55,1) 30%, rgba(201,68,117,1) 58%, rgba(249,4,157,1) 76%);
-  opacity: 0.7;
+  background: rgb(58,180,164);
+  background: linear-gradient(90deg, rgba(58,180,164,1) 0%, rgba(69,226,252,1) 100%);
+  opacity: 0.8;
   text-align: center;
-  margin: 2em auto;
+  margin: 2em ;
  }
  #instagram:hover {
   color: rgb(119, 10, 10);
@@ -47,8 +48,8 @@
   color:  rgb(119, 10, 10);
  }
  body {
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(39,160,183,1) 25%, rgba(42,136,174,1) 50%, rgba(49,87,157,1) 75%, rgba(56,38,140,1) 100%);
+  background-image: url(SAND.jpeg);
+  background-size: cover ;
  }
  a {
   font-size: x-large;
@@ -64,24 +65,30 @@
   font-weight: 500;
   font-size: x-large;
   font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(166, 252, 27);
  }
  ul {
   font-size: x-large;
   font-weight: 500;
   font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
  }
  p {
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(56, 41, 41);
   width: 60%;
-  text-align: center;
-  margin: auto;
+  text-align: left;
+  color: rgb(245, 94, 114);
  }
  ol {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   font-weight: 500;
   font-style: italic;
+ }
+ li {
+  color: aquamarine;
  }
  #email {
   display: block;
@@ -100,4 +107,23 @@
  #submit {
   display: block;
   margin: 1em auto ;
+ }
+ #hobby-img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1em;
+ }
+ .hobby {
+ aspect-ratio: 1/1;
+  margin: 1em;
+  border-radius: 5%;
+  box-shadow:9px 7px 15px 0px rgb(34 60 80 / 20%) ;
+ }
+ .about-me {
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 60%;
+  text-align: left;
+  color: rgb(19, 17, 17);
  }
