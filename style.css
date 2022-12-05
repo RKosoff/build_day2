@@ -11,7 +11,7 @@
   display: block;
   margin: 0 auto;
   border-radius: 5%;
-}
+ }
  h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -19,10 +19,14 @@
   font-weight: bold;
   color:rgb(133, 45, 45);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: sticky;
+  top: 20px;
  }
  h2 {
   text-align: center;
   color: rgb(133, 45, 45);
+  position: fixed;
+  right: 3em;
  }
  td, th {
   padding: 0.93em;
@@ -54,7 +58,7 @@
  a {
   font-size: x-large;
   font-weight: 200;
-  color: black;
+  color: rgb(169, 232, 41);
  }
  th {
   font-weight: 600;
@@ -126,4 +130,6 @@
   width: 60%;
   text-align: left;
   color: rgb(19, 17, 17);
+  position: relative;
+  left: 10rem;
  }
