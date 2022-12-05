@@ -20,14 +20,14 @@
   color:rgb(133, 45, 45);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: sticky;
-  top: 20px;
+  top: 30px;
  }
  h2 {
   text-align: center;
   color: rgb(133, 45, 45);
   position: fixed;
   right: 3em;
- }
+ }  
  td, th {
   padding: 0.93em;
  }
